@@ -47,7 +47,7 @@ async def alive(client, message):
             message.chat.id,
             f"pick a language from Keyboard:",
             reply_markup=types.ReplyKeyboardMarkup(buttons),
-            reply_to_message_id=message.message_id
+            reply_to_message_id=message.chat.id
         )
         lan = language.text.split(None, 1)
         if lan[0] not in lang_names:
