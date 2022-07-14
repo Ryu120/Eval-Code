@@ -11,7 +11,7 @@ async def start_handle(client, message):
     if len(message.text.split()) >= 2:
         if message.text.split()[1] == 'help_inline':
             await message.reply(
-                f"""**How to use <b>@{BOTUSERNAME}</b> via inline\n\n type in `<b>@{BOTUSERNAME}</b>` <language> <code>**\n\n See /langs for loaded languages\n\n **A Project of;\n @WONKRU_HERE**""",
+                f"""**HyIam Ryu's Playthingie <b>@Ryu_God</b> here is my master\n\n type in `<b>@{BOTUSERNAME}</b>` <language> <code>**\n\n See /langs for loaded languages\n\n **A Slave of;\n @Ryu_God**""",
                 reply_markup=types.InlineKeyboardMarkup(
                     [
                         [
@@ -30,5 +30,5 @@ async def start_handle(client, message):
 Executing files are not supported yet but will in future\n\n
 you can also use me via inline:\n`<b>@{BOTUSERNAME}</b> python3 print('Hello World')`\n\n
 all available languages can be seen on `/langs`\n\n
-**A Project of; @WONKRU_HERE**"""
+**A Slave of; @Ryu_God*"""
    )
